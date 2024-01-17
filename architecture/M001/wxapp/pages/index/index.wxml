@@ -1,0 +1,19 @@
+
+<view wx:if="{{loading}}" class="loading"><view class="loader-pulse"></view>{{loadtips}}</view>
+<view wx:else class="container">
+    <view class="info">
+        <view class="title">{{data.title}}</view>
+        <view class="desc">{{data.desc}}</view>
+        <view class="price">
+            <view class="p">{{data.price.p}}</view>
+            <view class="d" wx:if="{{data.price.d!=null}}">{{data.price.d}}</view>
+            <view class="t" wx:if="{{data.price.t!=null}}">{{data.price.t}}</view>
+        </view>
+        <view class="list">
+            <view class="item" wx:for="{{data.list}}" wx:key="index">
+                <view class="label">{{item.label}}</view>
+                <view class="value">{{item.value}}</view>
+            </view>
+        </view>
+    </view>
+</view>

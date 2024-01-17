@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文件上传例子</title>
+</head>
+<body>
+    <div style="display: flex; flex-direction: column; align-items: center;">
+        <input type="file" id="fileInput" style="margin: 50px 0;">
+        <textarea id="infoInput" style="width: 400px;height: 200px;"></textarea>
+        <button onclick="handleUpload()" style="margin: 50px 0;">上传文件</button>
+        <div id="log"></div>
+    </div>
+    <script>
+        function handleUpload() {
+            const fileInput = document.getElementById('fileInput');
+            const infoInput = document.getElementById('infoInput');
+            const log =  document.getElementById('log');
+            try{
+                const file = fileInput.files[0];
+                const uploadInfo = JSON.parse(infoInput.value);
+                log.innerText = '上传中....'
+                uploadFile(uploadInfo, file, console.log).then(response => {
+                    if (response === 0) {
+                        log.innerText = '文件上传成功！'
+                    } else {
+                        log.innerText = '文件上传失败！可能是授权已过期'
+                    }
+                });
+            } catch(e){
+                log.innerText = '无法上传，需要填写基本的信息！'
+            }
+        }
+        function uploadFile(info, file, onUploadProgress = () => { }) {
+            return new Promise(function (resolve, reject) {
+                const xhr = new window.XMLHttpRequest()
+                xhr.withCredentials = true
+                xhr.onreadystatechange = function () {
+                    if (this.readyState === 4) {
+                        if (this.status === 200) {
+                            resolve(0)
+                        } else {
+                            resolve(-1)
+                        }
+                    }
+                }
+                xhr.upload.onprogress = onUploadProgress
+                xhr.open('POST', info.url)
+                const data = new window.FormData()
+                for (const i in info.form) {
+                    data.append(i, info.form[i])
+                }
+                data.append('file', file)
+                xhr.send(data)
+            })
+        }
+    </script>
+</body>
+</html>

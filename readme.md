@@ -23,6 +23,7 @@
 | 2024年1月1日 | 对象存储私有读写方案实现｜云原生实践 | [链接](https://mp.weixin.qq.com/s/u59tJvtJI9S1Z16NrpFXlA)   | [链接](./architecture/M002/) |
 | 2024年1月13日 | 一个不完美的云原生实践，无奈的选择 | [链接](https://mp.weixin.qq.com/s/G-_1y-uAtd_PwF-X1zjhbQ)   | [链接](./architecture/M003/) |
 | 2024年1月21日 | 当上游服务拉跨时，如何设计服务架构？ | [链接](https://mp.weixin.qq.com/s/wB1OCum0ehYWEQ-zrRZmUA)   | [链接](./architecture/M004/) |
+| 2024年1月27日 | 深度解析消息队列服务｜从 AWS SQS 到阿里云 MNS | [链接](https://mp.weixin.qq.com/s/-cvD5F8fcge6DyiaEKhXWw)   | [链接](./architecture/M005/) |
 
 ## 欢迎关注公众号
 

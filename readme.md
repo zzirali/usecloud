@@ -16,14 +16,17 @@
 
 案例部分源自于作者自身实践，部分来源于行业案例的二次加工。
 
-| 发布时间 | 文章名称 | 文章链接 | 代码链接 |
-| --- | --- | --- | --- |
-| 2023年12月24日 | 9.9 元的服务器太贵，继续降本十倍 | [链接](https://mp.weixin.qq.com/s/-P3AV3R6w_JZINONzu0mkA)   | [链接](./architecture/M001/)  |
-| 2023年12月28日 | 小用户也需要推荐云计算架构 | [链接](https://mp.weixin.qq.com/s/Vj-FC9L4EUjvl6NBri4u5Q)   | 无 |
-| 2024年1月1日 | 对象存储私有读写方案实现｜云原生实践 | [链接](https://mp.weixin.qq.com/s/u59tJvtJI9S1Z16NrpFXlA)   | [链接](./architecture/M002/) |
-| 2024年1月13日 | 一个不完美的云原生实践，无奈的选择 | [链接](https://mp.weixin.qq.com/s/G-_1y-uAtd_PwF-X1zjhbQ)   | [链接](./architecture/M003/) |
-| 2024年1月21日 | 当上游服务拉跨时，如何设计服务架构？ | [链接](https://mp.weixin.qq.com/s/wB1OCum0ehYWEQ-zrRZmUA)   | [链接](./architecture/M004/) |
-| 2024年1月27日 | 深度解析消息队列服务｜从 AWS SQS 到阿里云 MNS | [链接](https://mp.weixin.qq.com/s/-cvD5F8fcge6DyiaEKhXWw)   | [链接](./architecture/M005/) |
+| 发布时间            | 文章名称                                      | 文章链接                                                  | 代码链接                     |
+| ------------------- | --------------------------------------------- | --------------------------------------------------------- | ---------------------------- |
+| 2023 年 12 月 24 日 | 9.9 元的服务器太贵，继续降本十倍              | [链接](https://mp.weixin.qq.com/s/-P3AV3R6w_JZINONzu0mkA) | [链接](./architecture/M001/) |
+| 2023 年 12 月 28 日 | 小用户也需要推荐云计算架构                    | [链接](https://mp.weixin.qq.com/s/Vj-FC9L4EUjvl6NBri4u5Q) | 无                           |
+| 2024 年 1 月 1 日   | 对象存储私有读写方案实现｜云原生实践          | [链接](https://mp.weixin.qq.com/s/u59tJvtJI9S1Z16NrpFXlA) | [链接](./architecture/M002/) |
+| 2024 年 1 月 13 日  | 一个不完美的云原生实践，无奈的选择            | [链接](https://mp.weixin.qq.com/s/G-_1y-uAtd_PwF-X1zjhbQ) | [链接](./architecture/M003/) |
+| 2024 年 1 月 21 日  | 当上游服务拉跨时，如何设计服务架构？          | [链接](https://mp.weixin.qq.com/s/wB1OCum0ehYWEQ-zrRZmUA) | [链接](./architecture/M004/) |
+| 2024 年 1 月 27 日  | 深度解析消息队列服务｜从 AWS SQS 到阿里云 MNS | [链接](https://mp.weixin.qq.com/s/-cvD5F8fcge6DyiaEKhXWw) | [链接](./architecture/M005/) |
+| 2024 年 2 月 3 日   | 从阿里云 MNS 队列使用角度，浅析 EventBridge   | [链接](https://mp.weixin.qq.com/s/xEsoTSA1ufU36zUIujQSfw) | 无                           |
+| 2024 年 2 月 4 日   | 形象理解什么是消息队列   | [链接](https://mp.weixin.qq.com/s/RYtMMKhJ5huBNyfG14S5Xg) | 无                           |
+| 2024 年 2 月 23 日   | 计算密集型服务应该如何架构？   | [链接](https://mp.weixin.qq.com/s/zQHSKQ-CGMynmK50n5DQcw) | [链接](./architecture/M006/)                           |
 
 ## 欢迎关注公众号
 

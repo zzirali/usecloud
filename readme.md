@@ -27,6 +27,7 @@
 | 2024 年 2 月 3 日   | 从阿里云 MNS 队列使用角度，浅析 EventBridge   | [链接](https://mp.weixin.qq.com/s/xEsoTSA1ufU36zUIujQSfw) | 无                           |
 | 2024 年 2 月 4 日   | 形象理解什么是消息队列   | [链接](https://mp.weixin.qq.com/s/RYtMMKhJ5huBNyfG14S5Xg) | 无                           |
 | 2024 年 2 月 23 日   | 计算密集型服务应该如何架构？   | [链接](https://mp.weixin.qq.com/s/zQHSKQ-CGMynmK50n5DQcw) | [链接](./architecture/M006/)                           |
+| 2024 年 3 月 5 日   | 当AWS账单超出预算时，如何自动化处理资源实例？   | [链接](https://mp.weixin.qq.com/s/zAMuQ29Xp7DnDE74RqffnQ) | [链接](./architecture/M007/)                           |
 
 ## 欢迎关注公众号
 
